@@ -7,7 +7,7 @@
   <supportedVersions>
     <li>1.3</li>
   </supportedVersions>
-	<description>
+<description>
 Animal Rugs Lite
 This mod is inspired and borrow graphics from TheGoofyOne's Area Rugs 2.0 (https://steamcommunity.com/sharedfiles/filedetails/?id=1988111624) and adds a bunch of 3x3 animal rugs with different styles to RimWorld:
 
@@ -29,16 +29,23 @@ I tried a bit to group the rugs in a single drop down to take less space on the 
 Add/Remove notes: Safe to add but don't remove it if you have rugs produced by this mod in your save, destroy them before.
 
 Version 1.0 - Released on steam. Source code available at https://github.com/Trokare/Animal-Rugs-Lite
-	</description>
+</description>
   <modDependencies>
     <li>
       <packageId>Ludeon.RimWorld.Ideology</packageId>
       <displayName>Ideology</displayName>
       <steamWorkshopUrl>https://store.steampowered.com/app/1392840/RimWorld__Ideology/</steamWorkshopUrl>
     </li>
+	<li>
+	  <packageId>brrainz.harmony</packageId>
+	  <displayName>Harmony</displayName>
+	  <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+	  <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+	</li>
   </modDependencies>
   <loadAfter>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Ideology</li>
+    <li>brrainz.harmony</li>
   </loadAfter>
 </ModMetaData>
