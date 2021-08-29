@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/StyleCategoryDef[defName="Animalist"]/addDesignators</xpath>
+		<success>Normal</success>
+		<value>
+			<li>GrizzlyBearRug_Medium</li>
+			<li>PolarBearRug_Medium</li>
+			<li>ThrumboRug_Broad</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/StyleCategoryDef[defName="Totemic"]/addDesignators</xpath>
+		<success>Normal</success>
+		<value>
+			<li>MegaslothRug_Broad</li>
+			<li>ThrumboRug_Broad</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/StyleCategoryDef[defName="Rustic"]/addDesignators</xpath>
+		<success>Normal</success>
+		<value>
+			<li>MuffaloRug_Medium</li>
+			<li>ThrumboRug_Broad</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/StyleCategoryDef[defName="Morbid"]/addDesignators</xpath>
+		<success>Normal</success>
+		<value>
+			<li>WargRug_Medium</li>
+			<li>ThrumboRug_Broad</li>
+		</value>
+	</Operation>
+</Patch>

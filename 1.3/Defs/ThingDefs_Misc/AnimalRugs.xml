@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<DesignatorDropdownGroupDef>
+		<defName>Animal_Rug</defName>
+		<label>animal rug</label>
+	</DesignatorDropdownGroupDef>
+
+	<ThingDef Abstract="True" Name="AnimalRugMediumBase" ParentName="BuildingFloorCoveringMediumBase">
+		<designatorDropdown>Animal_Rug</designatorDropdown>
+		<size>(3,3)</size>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<researchPrerequisites><li>CarpetMaking</li></researchPrerequisites>
+	    <defaultPlacingRot>North</defaultPlacingRot>
+		<statBases>
+			<Flammability>1</Flammability>
+			<Beauty>25</Beauty>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="AnimalRugBroadBase" ParentName="BuildingFloorCoveringBroadBase">
+		<designatorDropdown>Animal_Rug</designatorDropdown>
+		<size>(3,3)</size>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<researchPrerequisites><li>CarpetMaking</li></researchPrerequisites>
+	    <defaultPlacingRot>North</defaultPlacingRot>
+		<statBases>
+			<Flammability>1</Flammability>
+			<Beauty>50</Beauty>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="AnimalRugMediumBase">
+		<defName>WargRug_Medium</defName>
+		<label>warg rug</label>
+		<description>A warg rug for decorating a floor.</description>
+ 	    <dominantStyleCategory>Morbid</dominantStyleCategory>
+		<graphicData>
+			<texPath>Things/Building/FloorCoverings/VanillaWarg3X3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>50</Cloth>
+			<Leather_Wolf>23</Leather_Wolf>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="AnimalRugMediumBase">
+		<defName>GrizzlyBearRug_Medium</defName>
+		<label>grizzly bear rug</label>
+		<description>A grizzly bear rug for decorating a floor.</description>
+ 	    <dominantStyleCategory>Animalist</dominantStyleCategory>
+		<graphicData>
+			<texPath>Things/Building/FloorCoverings/VanillaBear3X3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>50</Cloth>
+			<Leather_Bear>35</Leather_Bear>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="AnimalRugMediumBase">
+		<defName>PolarBearRug_Medium</defName>
+		<label>polar bear rug</label>
+		<description>A polar bear rug for decorating a floor.</description>
+ 	    <dominantStyleCategory>Animalist</dominantStyleCategory>
+		<graphicData>
+			<texPath>Things/Building/FloorCoverings/VanillaPolarBear3X3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>50</Cloth>
+			<Leather_Bear>35</Leather_Bear>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="AnimalRugMediumBase">
+		<defName>MuffaloRug_Medium</defName>
+		<label>muffalo rug</label>
+		<description>A muffalo rug for decorating a floor.</description>
+ 	    <dominantStyleCategory>Rustic</dominantStyleCategory>
+		<graphicData>
+			<texPath>Things/Building/FloorCoverings/VanillaMuffalo3X3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>50</Cloth>
+			<Leather_Bluefur>33</Leather_Bluefur>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="AnimalRugBroadBase">
+		<defName>ThrumboRug_Broad</defName>
+		<label>thrumbo rug</label>
+		<description>A thrumbo rug for decorating a floor.</description>
+		<graphicData>
+			<texPath>Things/Building/FloorCoverings/VanillaThrumbo3X3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>50</Cloth>
+			<Leather_Thrumbo>60</Leather_Thrumbo>
+			<ThrumboHorn>1</ThrumboHorn>
+		</costList>
+		<statBases>
+			<StyleDominance>0</StyleDominance>
+			<Beauty>75</Beauty>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AnimalRugBroadBase">
+		<defName>MegaslothRug_Broad</defName>
+		<label>megasloth rug</label>
+		<description>A megasloth rug for decorating a floor.</description>
+ 	    <dominantStyleCategory>Totemic</dominantStyleCategory>
+		<graphicData>
+			<texPath>Things/Building/FloorCoverings/VanillaMegasloth3X3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>50</Cloth>
+			<Leather_Heavy>50</Leather_Heavy>
+		</costList>
+	</ThingDef>
+
+</Defs>
